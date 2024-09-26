@@ -7,7 +7,9 @@ body {
 
 .header {
   overflow: hidden;
-  background-color: #FF4500;
+  /* background-color: #FF4500; */
+  background-color: aliceblue;
+  box-shadow: 3px 3px 7px 3px #ff4800;
   padding: 0.5%;
 }
 
