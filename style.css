@@ -39,6 +39,7 @@ body {
 .background_all_product {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 
@@ -126,3 +127,7 @@ img {
 .plus_minus button:hover {
   color: #ff4800;
 }
+
+.sidebar {}
+
+.categories {}
