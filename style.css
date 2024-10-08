@@ -9,7 +9,7 @@ body {
   overflow: hidden;
   /* background-color: #FF4500; */
   background-color: aliceblue;
-  box-shadow: 3px 3px 7px 3px #ff4800;
+  /* box-shadow: 3px 3px 7px 3px #ff4800; */
   padding: 0.5%;
 }
 
@@ -29,9 +29,8 @@ body {
   font-weight: bold;
 }
 
-.header a:hover not(.logo) {
-  background-color: #ddd;
-  color: black;
+.header-right a:hover {
+  color: #ff4800;
 }
 
 .header-right {
@@ -124,6 +123,7 @@ img {
   padding: 10% 10%;
   border-radius: 20px;
   font-size: 1.5em;
+  transition: background 0.2s, color 0.2s;
 }
 
 .plus_minus button:hover {
@@ -133,12 +133,23 @@ img {
 .sidebar {
   display: flex;
   justify-content: space-around;
+  padding: 1em;
+  background-color: aliceblue;
+  margin-bottom: 0.5em;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  /* border: 3px solid #ff4800; */
+  background-color: aliceblue;
+  opacity: 0.5;
+
 }
 
 .sidebar a {
-  padding: 1em 1em;
   border: none;
-  background-color: aliceblue;
-  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+}
 
+.sidebar a:hover {
+  color: #ff4800;
 }
