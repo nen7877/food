@@ -4,12 +4,17 @@
   font-style: normal;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   background-size: cover;
   background-image: url('image/background3.jpg');
   backdrop-filter: blur(2px);
   margin: 0;
   font-family: varela;
+  min-height: 100%;
 }
 
 .header {
@@ -30,13 +35,12 @@ body {
 }
 
 .logo {
-  height: 2.5em;
+  height: 3.5em;
   margin-left: 0.5em;
 }
 
 
 .header a.logo {
-  font-size: 25px;
   font-weight: bold;
 }
 
@@ -47,6 +51,9 @@ body {
 .header-right {
   float: right;
   margin: 1em;
+  display: flex;
+  /* font-size: 1.5em; */
+  align-items: center;
 }
 
 .background_all_product {
@@ -79,6 +86,7 @@ img {
   box-shadow: 3px 3px 5px 3px #ff4800;
   border-radius: 20px;
   padding: 1em;
+  margin: 1em
 }
 
 .add_button {
@@ -155,6 +163,7 @@ img {
   border: none;
   text-decoration: none;
   color: black;
+  transition: background 0.2s, color 0.2s;
 }
 
 .sidebar a:hover {
@@ -163,4 +172,18 @@ img {
 
 .cart_image {
   height: 1.5em;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(240, 248, 255, 0.55);
+  align-items: center;
+}
+
+footer ul {
+  list-style-type: none;
 }
