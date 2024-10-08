@@ -15,7 +15,7 @@ body {
 .header {
   overflow: hidden;
   background-color: aliceblue;
-  padding: 0.5%;
+  /* padding: 0.5%; */
 }
 
 .header a {
@@ -29,6 +29,12 @@ body {
   border-radius: 4px;
 }
 
+.logo {
+  height: 2.5em;
+  margin-left: 0.5em;
+}
+
+
 .header a.logo {
   font-size: 25px;
   font-weight: bold;
@@ -40,6 +46,7 @@ body {
 
 .header-right {
   float: right;
+  margin: 1em;
 }
 
 .background_all_product {
